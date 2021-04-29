@@ -4,7 +4,7 @@ public class Swordsman extends MilitaryUnit {
 
     static int counter = 0;
 
-    public Swordsman(Boolean shield) {
+    public Swordsman(boolean shield) {
         hitPoints = 100;
         attack = 10;
         super.shield = shield;
@@ -31,6 +31,7 @@ public class Swordsman extends MilitaryUnit {
             counter++;
         } else {
             super.sufferDamage(damage);
+            counter = 0;
         }
     }
 }
