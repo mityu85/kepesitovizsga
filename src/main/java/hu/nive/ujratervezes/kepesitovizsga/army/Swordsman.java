@@ -5,9 +5,9 @@ public class Swordsman extends MilitaryUnit {
     static int counter = 0;
 
     public Swordsman(boolean shield) {
-        hitPoints = 100;
-        attack = 10;
-        super.shield = shield;
+        setHitPoints(100);
+        setAttack(10);
+        setShield(shield);
     }
 
     @Override

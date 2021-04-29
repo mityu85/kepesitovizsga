@@ -3,9 +3,9 @@ package hu.nive.ujratervezes.kepesitovizsga.army;
 public class Archer extends MilitaryUnit {
 
     public Archer() {
-        hitPoints = 50;
-        attack = 20;
-        shield = false;
+        setHitPoints(50);
+        setAttack(20);
+        setShield(false);
     }
 
     @Override

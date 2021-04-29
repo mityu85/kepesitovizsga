@@ -2,9 +2,21 @@ package hu.nive.ujratervezes.kepesitovizsga.army;
 
 public abstract class MilitaryUnit {
 
-    public int hitPoints;
-    public int attack;
-    public boolean shield;
+    private int hitPoints;
+    private int attack;
+    private boolean shield;
+
+    public void setHitPoints(int hitPoints) {
+        this.hitPoints = hitPoints;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public void setShield(boolean shield) {
+        this.shield = shield;
+    }
 
     public int getHitPoints() {
         return hitPoints;

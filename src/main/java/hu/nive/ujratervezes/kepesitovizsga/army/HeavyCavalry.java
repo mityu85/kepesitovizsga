@@ -5,9 +5,9 @@ public class HeavyCavalry extends MilitaryUnit{
     static int counter = 0;
 
     public HeavyCavalry() {
-        hitPoints = 150;
-        attack = 20;
-        shield = true;
+        setHitPoints(150);
+        setAttack(20);
+        setShield(true);
     }
 
     @Override
